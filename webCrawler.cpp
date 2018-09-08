@@ -1,6 +1,6 @@
 #include<iostream>
 #include<stdio.h>
-
+#include<sys/file.h>
 
 int main(int argc,char *argv[])
 {
@@ -12,10 +12,22 @@ int main(int argc,char *argv[])
         	printf("\nThe arguments supplied are %s\n",argv[i]);
 	}
     }
-	
-    else 
+
+    else
     {
 		printf("THE PROGRAMME CONTAINS NO ARGUMENTS");
     }
     return 0;
+
+    FILE *inputFile;
+    inputFile =fopen("temp.txt","w");
+
+    if(inputFile==NULL)
+    {
+        printf("ERROR OPENING FILE");
+    }
+    else
+    {
+        printf("FILE OPENED");
+    }
 }
