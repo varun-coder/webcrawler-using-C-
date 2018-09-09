@@ -31,7 +31,7 @@ int main(int argc,char *argv[]) // command line arguments
     }
     else
     {
-        fprintf(inputFile,"FILE OPENED %s",system("wget www.chitkara.edu.in"));
+        fprintf(inputFile,"FILE OPENED %s",system("curl https://www.chitkara.edu.in > temp.txt"));
     }
 
     return 0;
