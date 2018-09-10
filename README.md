@@ -1,6 +1,11 @@
 # webcrawler-using-C-
 A simple webcrawler made using C/C++
 
+RECOMMENDED INSTALLING : 
+
+                sudo apt-get install curl
+                sudo apt-get install wget ( if not already installed in linux system)
+
 STEPS TO RUN THE CODE
 
                 STEP 1: g++/gcc webCrawler.cpp
