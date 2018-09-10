@@ -27,7 +27,7 @@ int main(int argc,char *argv[]) // command line arguments
 
     if (inputFile==NULL)
     {
-        fprintf(stderr,"ERROR OPENING FILE");
+        fprintf(stderr," ERROR OPENING FILE ");
     }
     else
     {
