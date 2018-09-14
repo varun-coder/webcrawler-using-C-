@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<fstream>
+#include<string.h>
 #define HASH_SIZE 100
 #define URL_LENGTH 1000
 #define SEED_URL "http://www.chitkara.edu.in"
@@ -59,7 +60,7 @@ int main(int argc,char *argv[]) // command line arguments
     printf("PROGRAMME NAME IS %s \n",argv[0]);
     if(argc >2)
     {
-        for(int i = 0 ; i<argc; i++)
+        for(int i = 1 ; i<argc; i++)
         {
             printf("\nThe arguments supplied are %s\n",argv[i]);
         }
@@ -69,9 +70,21 @@ int main(int argc,char *argv[]) // command line arguments
     {
         printf("THE PROGRAMME CONTAINS NO ARGUMENTS");
     }
-
-
-    insertIntoFILE();
-    extractURLS();
+	printf("%s",argv[1]);
+		
+	if(strcmp(argv[1],"http://www.chitkara.edu.in")==0)
+	{
+		printf("valid url");
+		if(strcmp(argv[2],"2")==0)
+		{	
+		     printf("valid depth");
+			if(strcmp(argv[3],"files")==0)
+			{
+				printf("valid folder");
+			}
+		}
+	}
+    //insertIntoFILE();
+    //extractURLS();
     return 0;
 }

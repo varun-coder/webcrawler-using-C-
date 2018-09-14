@@ -904,7 +904,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 				</div>
 			</div>-->
-			<div class="marquee-design-1">
+			<!--<div class="marquee-design-1">
 				
 				<div class="marquee-design-inner">
 					<div class="counsel">
@@ -917,12 +917,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<span>Admissions Microsite for Engineering Programs<b><a href="https://www.chitkara.edu.in/microsite" class="redtxt"> Click here>></a></span></b>
 					</div>
 				</div>
-			</div>
+			</div>-->
 		
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="abouttxt">
+			<div class="abouttxt" style="margin-top:15px;">
 				<div class="abouthm-slider cutitle">
 										<iframe width="100%" height="386" src="https://www.youtube.com/embed/QdMkYxeBgaM?autoplay=1&rel=0&amp;controls=1&amp;showinfo=0&mute=1" frameborder="0" allowfullscreen></iframe>
 					
@@ -1020,17 +1020,17 @@ Within a decade, most of our academic programs are ranked in top 50 programs in 
 				<div class="newspanel bgf7">
 					<div class="cutimes">
 						<a href="https://www.chitkara.edu.in/cu-times/"><img src="https://www.chitkara.edu.in/wp-content/themes/chitkara/images/cu-times-logo.png" alt="cu-times-logo" title="cu-times-logo" width="140" height="41" /></a>
-					<span>10-09-2018</span>
+					<span>14-09-2018</span>
 					</div>
 					<ul class="newslist">
 						                                <li>
-	                                	<a href="https://www.chitkara.edu.in/news/panel-discussion-mentoring-higher-education-make-teachers-day-celebrations/">Panel discussion on &#8216;Mentoring in Higher Education&#8217; to make the Teachers’ Day celebrations</a>
+	                                	<a href="https://www.chitkara.edu.in/news/department-nursing-chitkara-school-health-sciences-celebrates-nutrition-week/">Department of Nursing at Chitkara School of Health Sciences celebrates &#8216;Nutrition Week&#8217;</a>
 	                                </li>
                                 	                                <li>
-	                                	<a href="https://www.chitkara.edu.in/news/chitkara-university-celebrates-teachers-day-enthusiasm-impetuosity-campus/">Chitkara University celebrates Teachers&#8217; Day with enthusiasm and impetuosity at the campus</a>
+	                                	<a href="https://www.chitkara.edu.in/news/chitkara-university-model-united-nations-society-make-us-proud/">Chitkara University Model United Nations Society make us proud</a>
 	                                </li>
                                 	                                <li>
-	                                	<a href="https://www.chitkara.edu.in/news/ccn-faculty-attend-two-day-workshop-prevention-management-ncds-nurses-pgimer-chandigarh/">CCN faculty attend the two-day workshop on prevention and management of NCDs for Nurses in PGIMER, Chandigarh</a>
+	                                	<a href="https://www.chitkara.edu.in/news/chitkara-college-hospitality-management-organises-mocktail-competition-theme-surprise-box/">Chitkara College of Hospitality Management organises a Mocktail competition with a theme &#8216;The Surprise Box&#8217;</a>
 	                                </li>
                                 					</ul>	
 					<div class="in-the-press-btn-news">	
@@ -2135,9 +2135,9 @@ s.parentNode.insertBefore(b, s);})();
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
-Object Caching 8868/296 objects using disk
+Object Caching 8875/300 objects using disk
 Page Caching using disk: enhanced 
 Minified using disk
 
-Served from: www.chitkara.edu.in @ 2018-09-10 04:49:36 by W3 Total Cache
+Served from: www.chitkara.edu.in @ 2018-09-14 06:11:24 by W3 Total Cache
 -->
