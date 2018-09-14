@@ -12,5 +12,7 @@ STEPS TO RUN THE CODE
                 STEP 2: ./a.out argument1 argument2 argument3--------argument(N)
    
    
-   RECOMMENDED THAT YOU RUN THIS CODE IN LINUX BASED SYSTEMS ONLY.
+   RECOMMENDED THAT YOU RUN THIS CODE IN LINUX BASED SYSTEMS ONLY.......
+   
+   Dosent Work in windows.
  
