@@ -5,8 +5,8 @@
 #include<string.h>
 #define HASH_SIZE 100
 #define URL_LENGTH 1000
-#define SEED_URL "http://www.chitkara.edu.in"
-#define MAX_URL_PER_PAGE 1000
+#define SEED_URL "https://www.youtube.com/results?search_query=codestien"
+#define MAX_URL_PER_PAGE 10
 #define INTERVAL_TIME 10
 /* FUNCTION TO INSERT INTO FILES */
 using namespace std;
@@ -21,7 +21,7 @@ void insertIntoFILE()
     }
     else
     {
-        fprintf(inputFile,"FILE OPENED %s",system("curl https://www.chitkara.edu.in > temp.txt"));
+        fprintf(inputFile,"FILE OPENED %s",system("curl https://www.youtube.com/results?search_query=codestien > temp.txt"));
     }
 }
 
@@ -72,7 +72,7 @@ int main(int argc,char *argv[]) // command line arguments
     }
 	printf("%s",argv[1]);
 		
-	if(strcmp(argv[1],"http://www.chitkara.edu.in")==0)
+	if(strcmp(argv[1],"https://www.youtube.com/results?search_query=codestien")==0)
 	{
 		printf("valid url");
 		if(strcmp(argv[2],"2")==0)
